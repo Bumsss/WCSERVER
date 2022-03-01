@@ -1,0 +1,33 @@
+<!--Name: Bumanlag, Allen Ross F.
+    App Name: index.html
+    Description: This is the html page where you can see the form.
+-->
+
+<html>
+<head>
+    <link rel="stylesheet" href="/styles.css"/>
+</head>
+    <body>
+        <div class="container">
+        <form action = "http://localhost:5000/process_post" method = "POST">
+           <div class="form-group">
+            <h3>MID LAB POST</h3>
+            <label>First Name</label>
+            <input type="text" class="form-control" name="first_name" placeholder=" Enter First Name"></br>
+            <label>Last Name</label>
+            <input type="text" class="form-control" name="last_name" placeholder=" Enter Last Name"></br>
+            <label>Course</label>
+            <input type="text" class="form-control" name="stud_course" placeholder=" Enter Course"></br>
+            <label>Age</label>
+            <input type="text" class="form-control" name="stud_age" placeholder=" Enter Age"></br>
+            <label>Comments</label>
+            <input type="text" class="form-control" name="stud_comments" placeholder=" Enter Comments/Suggestions">
+            <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        
+        </form>
+        </div>
+
+    </body>
+</html>
